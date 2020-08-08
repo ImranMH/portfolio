@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+/* *{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7F8FC;
+    color:#8E94A7;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+} */
+a{
+    color:#87AAF8;
+    text-decoration: none;
+}
+button img{
+    max-width: 100%;
+    width: 20px;
+    margin-right: 5px;
+}
+.login-container{
+    background-color: #fff;
+    border-radius: 3px;
+    border: 20px solid #F0F2FB;
+    box-shadow: 0px 1px 18px rgba(0,0,0,.2);
+    width: 1000px;
+    max-width: 100%;
+    display: flex;
+    margin: 50px auto;
+}
+.login-container form{
+    margin-right: 20px;
+    border-right: 5px solid #F7F8FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    flex:1
+}
+.login-container .btn{
+    background-color: #121B26;
+    border: 1px solid #121B26;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: inherit;
+    margin: 20px 0;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+.btn-ghost{
+    background-color: #fff;
+    border-color: #ccc;
+    color:#555;
+    
+}
+.login-container .form-control-3{
+    padding: 10px 0;
+    width: 100%;
+}
+.login-container .form-control-3 label{
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.login-container .form-control-3 input:not([type='checkbox']){
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 3px;
+    background: transparent;
+    font-size: 14px;
+}
+.checkbox-tontainer{
+    display: flex;
+    font-size: 14px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.checkbox-tontainer label{
+    color: #555;
+    font-weight: normal;
+
+}
+.checkbox-tontainer a{   
+    margin-left: auto;
+}
+.features{
+    flex:2;
+    padding: 20px;
+}
+.features-item{
+    position: relative;
+    margin: 40px 0;
+    padding-left: 40px;
+}
+
+.features-item i{
+    color: #6691F6;
+    position: absolute;
+    left: 0px;
+    top: 2px;
+    margin-right: 10px;
+}
+.features-item h4{
+    margin: 10px 0;
+    text-transform: capitalize;
+    color: #555;
+}
+.features-item p{
+margin: 0;
+}
+
+@media (max-width:680px){
+    .login-container{
+        width: auto;
+        flex-direction: column;
+    }
+}

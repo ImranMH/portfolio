@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Source+Sans+Pro:wght@200;600&display=swap');
+/* *{
+    box-sizing: border-box;
+}
+body{
+    background-color: #161F3B;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    color: #fff;
+} */
+/* .container{
+    background: #242E4C;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+    padding: 20px 40px;
+    margin: auto;
+    width: 1000px;
+} */
+table{
+    background-color: #242E4C;
+    width: 100%;
+    padding: 10px;
+}
+table th,
+table td{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 3px solid #242E4C;
+}
+table tbody tr{
+    background-color: #1C2540 ;
+}
+table tbody tr:hover{
+    background-color: #161F3B;
+    box-shadow: 0px 3px 5px rgba(0,0,0,.2);
+}
+table tbody tr td:first-of-type{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+table tbody tr td:last-of-type{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+}
+table tbody tr.priority-200 td:first-of-type{
+border-left: 3px solid #F4B17B;
+}
+table tbody tr.priority-300 td:first-of-type{
+    border-left: 3px solid #598CDF;
+}
+table tbody tr.priority-600 td:first-of-type{
+    border-left: 3px solid #58D9C8;
+}
+table td i.fa-circle{
+    transform: scale(.4);
+    vertical-align: middle;
+}
+table  tr.priority-200 td i.fa-circle{
+    color: #F4B17B;
+}
+table tr.priority-300 i.fa-circle{
+    color: #598CDF;
+}
+table tr.priority-600 i.fa-circle{
+    color: #58D9C8;
+}
+.delete{
+    background-color: #1C2540;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+table tbody tr:hover .delete{
+    opacity: 1;
+}
+
+
+
+/* search_area */
+.search_area{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.search{
+    padding: 10px;
+    border: 1px solid #161F3B;
+    border-radius: 5px;
+    color: #777;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0px 0px 1px rgba(0,0,0,.1);
+    position: relative;
+}
+.search input{
+    padding: 10px 10px 10px 20px;
+    background: transparent;
+    border: none;
+    color: #777;
+    font-size: 12px;
+    outline: none;
+    width: 100%;
+}
+
+i.fa-search{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+
+}
+.filter{
+    background: transparent;
+    border: 1px solid #161F3B;
+    color: #777;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    outline: none;
+}
+.filter span{
+    background-color: #F86EAD;
+    padding: 1px 4px;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: -5px;
+    top: -10px;
+    text-shadow: 0 0 2px #000;
+}
+
+

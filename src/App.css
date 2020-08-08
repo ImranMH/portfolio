@@ -1,0 +1,35 @@
+.project_bg{
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+    /* position: relative; */
+}
+.url-container input {
+  background: none;
+}
+
+.project_bg .navbar-2 {
+    /* position: absolute; */
+    background: #000;
+}
+
+.Project_contyainer{
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
+@media(max-width:670px){
+    .container-expense {
+        width: auto;
+    }
+    .love-container {
+        width: auto;
+    }
+    .love-container .result {
+        min-width: auto;
+        padding: 10px;
+    }
+    .love-container .heart{
+       width: 50px;
+    }
+}

@@ -1,0 +1,94 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7F8FC;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+} */
+.userlist-container{
+    background: #53615F;
+    width: 1000px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+
+
+.userlist-container img{
+    max-width: 100%;
+}
+.userlist-container .card{
+    background: #E6EBEB;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+.userlist-container .card h3{
+    color: #555;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.card_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.card_ussr{
+    display: grid;
+    grid-template-areas:
+        'img user'
+        'img follower';
+    align-items: center;
+}
+.card_ussr h4{
+    grid-area: user;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+    text-transform: capitalize;
+}
+.card_ussr img{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+    grid-area: img;
+    margin-right: 10px;
+}
+.card_ussr small{
+    grid-area: follower;
+    color: #555;
+    font-size: 12px;
+}
+button.join{
+    padding: 10px 15px;
+    background: #fff;
+    border: 1px solid #53615F;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+button.join:hover{
+    background-color: #53615F;
+    color:#fff;
+}
+
+@media(max-width:680px){
+    .userlist-container{
+        flex-direction: column;
+        width: auto;
+    }
+}

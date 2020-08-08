@@ -1,0 +1,33 @@
+/* .container{
+    width: 90%;
+    margin: 0 auto;
+} */
+
+.control{
+    margin: 40px auto;
+    width: 300px;
+    text-align: center;
+    display: block;
+}
+.img{
+    width: 200px;
+    display: block;
+    margin: 0px auto 40px;
+}
+
+.title{
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 26px;
+    color:#555;
+}
+.county_picker{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    /* width: 300px; */
+    /* border: 1px solid #ccc; */
+    margin: 50px auto;
+}
