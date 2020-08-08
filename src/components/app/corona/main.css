@@ -31,3 +31,17 @@
     /* border: 1px solid #ccc; */
     margin: 50px auto;
 }
+.card_container{
+    display: flex;
+    /* align-items: center; */
+    margin: auto;
+    width: 1000px;
+}
+
+@media(max-width:680px){
+    .card_container{
+        flex-direction: column;
+        width: auto;
+    
+    }
+}

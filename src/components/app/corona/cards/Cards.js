@@ -10,10 +10,7 @@ import cx from 'classnames';
 // import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
-    grid: {
-        display: 'flex',
-        justifyContent: 'center'
-    },
+
     root: {
         minWidth: 275,
     },
@@ -55,7 +52,7 @@ export default function Cards({ data: { confirmed, recovered, deaths, lastUpdate
     return (
         <div>
             {title}
-            <div className={classes.grid, "media_mobile"}>
+            <div className="card_container">
                 <Card className={cx(classes.root, classes.card, classes.infected)} variant="outlined">
                     <CardContent>
                         <Typography className={classes.title} color="textSecondary" gutterBottom>

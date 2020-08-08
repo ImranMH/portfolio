@@ -21,7 +21,7 @@ ul{
     padding: 0;
 }
 footer a{
-    color:#616072;
+    color:#a4a4b1;
     text-decoration: none;
 
 }
@@ -42,6 +42,7 @@ img{
 .footer_widget h3{
     margin-bottom: 1.6rem;
     text-transform: uppercase;
+    color: #aaa;
 }
 .f_nav li{
     margin-bottom: .8rem;
