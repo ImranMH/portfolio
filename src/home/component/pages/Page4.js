@@ -1,5 +1,5 @@
 import React from 'react'
-import { pPhoto } from '../../../assets/images'
+import { pPhoto, dots } from '../../../assets/images'
 const serviceSection = {
     sectionTitle: 'service',
     photo: pPhoto,
@@ -39,7 +39,7 @@ export default function page4({ activeClassName, img }) {
                                             <div className="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
                                                 <div className="dots-image-2">
                                                     <img alt="" className="img-responsive" src={pPhoto} />
-                                                    <div className="dots"></div>
+                                                    <div style={{ backgroundImage: `url(${dots})` }} className="dots"></div>
                                                     <div className="experience-info">
                                                         <div className="number">{serviceSection.experience}</div>
                                                         <div className="text">Years<br />Experience<br />Working</div>

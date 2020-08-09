@@ -12,12 +12,16 @@
     /* position: absolute; */
     background: #000;
 }
-
+.service-list li {
+    display: block;
+}
 .Project_contyainer{
     margin-top: 100px;
     padding-top: 20px;
 }
-
+.section-3 .h5.link-arrow {
+    margin: 50px auto 0;
+}
 @media(max-width:670px){
     .container-expense {
         width: auto;
@@ -31,5 +35,83 @@
     }
     .love-container .heart{
        width: 50px;
+    }
+    /* main.pagepiling > div{
+        height: auto !important;
+    }
+    main.pagepiling > div > div{
+        transform: translate3d(0px, 0px, 0px) !important;
+    } */
+
+    .project-box-inner {
+        padding: 1.14rem 1.928rem;
+    }
+    .project-category {
+        margin-top: 0;
+    }
+    .active-section .vertical-centred {
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+    }
+    .col-project-box {
+        margin-top: 20px;
+    }
+    .title-uppercase {
+        margin: 0 0 2rem;
+    }
+    .mdn{
+        display: none;
+    }
+    .carousel .slide {
+        padding: 0 0px 0 20px !important;
+    }
+    .slide.selected{
+        padding: 0  !important;
+    }
+    .review-author {
+        margin-top: .7rem;
+    }
+    .carousel p, blockquote {
+        margin-bottom: .6rem;
+    }
+    .carousel .slider-wrapper {
+        padding: 0px !important;
+    }
+    .carousel .control-dots {
+        margin: 0;
+    }
+    .row-partners {
+        margin: 0rem auto 0;
+    }
+    .col-partner {
+        margin-top: 1.7rem;
+    }
+    .service-list li {
+        margin-bottom: .7rem;
+        display: inline-block;
+        margin-right: 10px;
+        /* text-align: center; */
+    }
+    .section-4 h2 {
+        margin-bottom: 1.5rem;
+    }
+    .dots-image-2 .dots {
+        left: 40%;
+        bottom: 0%;
+    }
+    .dots-image-2 .experience-info {
+        left: 99%;
+        margin-top: -17.4rem;
+        top: 100%;
+    }
+    .experience-info .text {
+        font-size: 1.371rem;
+    }
+    .experience-info .number {
+        font-size: 8.71rem;
+        margin-right: 1.7rem;
+    }
+    .dots-image-2 img{
+        width: 90%;
     }
 }

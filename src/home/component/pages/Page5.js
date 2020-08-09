@@ -54,11 +54,11 @@ export default function Page5({ activeClassName, img }) {
                 <div className="container">
                   <div className="intro">
                     <div className="row">
-                      <div className="col-md-6">
+                      <div className="col-md-6 mdn">
                         <div className="col-resume">
                           <h6 className="resume-title"> Education </h6>
                           <div className="resume-content">
-                            <div className="resume-inner">
+                            <div className="resume-inner ">
                               {resumeSection.Education.map((data, i) =>
                                 <ResumeItem key={i} data={data} />
                               )}

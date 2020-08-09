@@ -4,8 +4,7 @@ const skrillSection = {
     sectionTitle: 'what I do',
     title: 'About me',
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
-    dicta sit pariatur odio unde deleniti eveniet magni cum, ad iure, vel
-    nisi minima vero voluptates ut ipsum amet iusto hic.`
+    dicta sit pariatur odio unde deleniti eveniet magni cum.`
 }
 const skrills = [
     {

@@ -15,28 +15,28 @@ const testmonials = [
         id: 1,
         author: 'Jemmy floyd',
         address: 'Apartment view lake at Brooklyn',
-        text1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptates officia molestias fugit ipsum, blanditiis minima voluptatibus sit in laudantium doloribus, illum, reiciendis similique distinctio asperiores earum dolore eveniet eius.',
+        text1: 'Lorem ipsum dolor sit amet, consectetur  fugit ipsum, blanditiis minima voluptatibus sit in laudantium doloribus, illum, reiciendis similique distinctio asperiores earum dolore eveniet eius.',
         text2: 'Thank you so much for all your design and expertise.'
     },
     {
         id: 2,
         author: 'Alex Plunket',
         address: 'Apartment view lake at Brooklyn',
-        text1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptates officia molestias fugit ipsum, blanditiis minima voluptatibus sit in laudantium doloribus, illum, reiciendis similique distinctio asperiores earum dolore eveniet eius.',
+        text1: 'Lorem ipsum dolor sit amet,  molestias fugit ipsum, blanditiis minima voluptatibus sit in laudantium doloribus, illum, reiciendis similique distinctio asperiores earum dolore eveniet eius.',
         text2: 'Thank you so much for all your design and expert.'
     },
     {
         id: 3,
         author: 'David & Elisa',
         address: 'Apartment view lake at Brooklyn',
-        text1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptates officia molestias fugit ipsum, blanditiis minima voluptatibus sit in laudantium doloribus, illum, reiciendis similique distinctio asperiores earum dolore eveniet eius.',
+        text1: 'Lorem ipsum dolor sit amet,  officia molestias fugit ipsum, blanditiis minima voluptatibus sit in laudantium doloribus, illum, reiciendis similique distinctio asperiores earum dolore eveniet eius.',
         text2: 'Thank you so much for all your design and expertise.'
     },
     {
         id: 4,
         author: 'John Dow',
         address: 'Apartment view lake at Brooklyn',
-        text1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptates officia molestias fugit ipsum, blanditiis minima voluptatibus sit in laudantium doloribus, illum, reiciendis similique distinctio asperiores earum dolore eveniet eius.',
+        text1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. blanditiis minima voluptatibus sit in laudantium doloribus, illum, reiciendis similique distinctio asperiores earum dolore eveniet eius.',
         text2: 'Thank you so much for all your design and expertise.'
     }
 ]
