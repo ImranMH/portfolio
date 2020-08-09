@@ -93,7 +93,7 @@ const Testimonial = ({ testimonial }) => {
         <div className="item review-carousel-item">
             <div className="text">
                 <p>“ {testimonial.text1} </p>
-                <p> {testimonial.text2}"</p>
+                <p className="mxdn"> {testimonial.text2}"</p>
             </div>
             <div className="review-author">
                 <div className="author-name">{testimonial.author}</div>

@@ -325,11 +325,12 @@ display: none !important;
 @media (min-height: 600px){
 
 
-.menu-list>li {
-    font-size: 1.7rem;
-}
+  .menu-list>li {
+      font-size: 1.7rem;
+  }
 
-.menu-list>li {
-    margin-top: 2rem;
-}
+  .menu-list>li {
+      margin-top: 2rem;
+  }
+
 }
