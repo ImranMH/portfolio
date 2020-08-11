@@ -8,6 +8,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 export default function Menu({ menuStatus }) {
     let match = useRouteMatch()
+    console.log(match);
     return (
         <div className="menu">
             <span onClick={() => {
@@ -27,18 +28,18 @@ export default function Menu({ menuStatus }) {
                 </div>
                 <TabPanel>
                     <ul className="menu-list right-boxed">
-                        <li><Link to={`${match.url}/projects/app/corona`}>Corona Virus Tracker</Link></li>
-                        <li><Link to={`${match.url}/projects/app/expense-tcr`}> Expense Tracker</Link></li>
-                        <li><Link to={`${match.url}/projects/app/lovecalculator`}> Love Calculator</Link></li>
+                        <li><Link to={`${match.url}projects/app/corona`}>Corona Virus Tracker</Link></li>
+                        <li><Link to={`${match.url}projects/app/expense-tcr`}> Expense Tracker</Link></li>
+                        <li><Link to={`${match.url}projects/app/lovecalculator`}> Love Calculator</Link></li>
                     </ul>
                 </TabPanel>
                 <TabPanel>
                     <ul className="menu-list right-boxed">
-                        <li><Link to={`${match.url}/projects/css-example/ads-managers`}> Ads Manager</Link></li>
-                        <li><Link to={`${match.url}/projects/css-example/card`}> Card</Link></li>
-                        <li><Link to={`${match.url}/projects/css-example/login`}> Login</Link></li>
-                        <li><Link to={`${match.url}/projects/css-example/modal`}> Modal</Link></li>
-                        <li><Link to={`${match.url}/projects/css-example/userlist`}> Userlist</Link></li>
+                        <li><Link to={`${match.url}projects/css-example/ads-managers`}> Ads Manager</Link></li>
+                        <li><Link to={`${match.url}projects/css-example/card`}> Card</Link></li>
+                        <li><Link to={`${match.url}projects/css-example/login`}> Login</Link></li>
+                        <li><Link to={`${match.url}projects/css-example/modal`}> Modal</Link></li>
+                        <li><Link to={`${match.url}projects/css-example/userlist`}> Userlist</Link></li>
                     </ul>
                 </TabPanel>
                 <TabPanel>
