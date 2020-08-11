@@ -24,11 +24,11 @@ export default function Header({ menuStatus }) {
                 </div>
             </Link>
             <div className="social-list hidden-xs">
-                <a href="#" className="icon ion-social-twitter"><span></span></a>
-                <a href="#" className="icon ion-social-facebook"><span></span></a>
-                <a href="#" className="icon ion-social-googleplus"><span></span></a>
-                <a href="#" className="icon ion-social-linkedin"><span></span></a>
-                <a href="#" className="icon ion-social-dribbble-outline"><span></span></a>
+                <a href="https://twitter.com/Imran__mh" target="_blank" className="icon ion-social-twitter"></a>
+                <a href="https://www.facebook.com/people/Imran-Hossain/100005169279775" target="_blank" className="icon ion-social-facebook"></a>
+                <a href="#" target="_blank" className="icon ion-social-googleplus"></a>
+                <a href="https://www.linkedin.com/in/imranmh/" target="_blank" className="icon ion-social-linkedin"></a>
+                <a href="https://github.com/ImranMH" target="_blank" className="icon ion-social-github"></a>
             </div>
         </header>
     )

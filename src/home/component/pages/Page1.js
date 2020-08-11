@@ -4,7 +4,7 @@ const homeSection = {
     imageBg: '',
     sectionTitle: 'Introduce',
     businessName: 'Jonny Design Studio',
-    author: ' my name is jonny.'
+    author: ' I am Imran.'
 }
 export default function Page1({ activeClassName, img }) {
     return (

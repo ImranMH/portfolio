@@ -3,7 +3,6 @@ import {
     Switch,
     Route,
     useRouteMatch,
-    useParams
 } from "react-router-dom";
 import classnames from 'classnames';
 import Menu from '../home/component/Menu'
@@ -20,7 +19,7 @@ export default function Projects(props) {
         setIsopen(data.isOpen)
     }
     let match = useRouteMatch();
-    console.log(match)
+
     return (
         <div className={classnames("body-full-page", "project_bg", isOpen ? 'menu-is-opened' : 'menu-is-closed')} >
             <div>
