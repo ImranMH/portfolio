@@ -51,6 +51,11 @@ body{
     border: 1px #ccc solid;
     border-radius: 5px;
     outline: none;
+    background: transparent;
+    color: #000;
+}
+.flow-name input:focus{
+    color: #000;
 }
 .flow-input{
     display: flex;

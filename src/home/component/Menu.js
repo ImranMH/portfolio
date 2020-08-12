@@ -19,48 +19,39 @@ export default function Menu({ menuStatus }) {
             <Tabs>
                 <div className="menu-lang right-boxed">
                     <TabList>
-                        <Tab><a href="#" >App</a></Tab>
-                        <Tab><a href="#">CSS</a></Tab>
-                        <Tab><a href="#">Projects</a></Tab>
+                        <Tab><span>App</span></Tab>
+                        <Tab><span>CSS</span></Tab>
+                        <Tab><span>Links</span></Tab>
 
 
                     </TabList>
                 </div>
                 <TabPanel>
                     <ul className="menu-list right-boxed">
-                        <li><Link to={`${match.url}projects/app/corona`}>Corona Virus Tracker</Link></li>
-                        <li><Link to={`${match.url}projects/app/expense-tcr`}> Expense Tracker</Link></li>
-                        <li><Link to={`${match.url}projects/app/lovecalculator`}> Love Calculator</Link></li>
+                        <li><Link to={`/projects/app/corona`}>Corona Virus Tracker</Link></li>
+                        <li><Link to={`/projects/app/expense-tcr`}> Expense Tracker</Link></li>
+                        <li><Link to={`/projects/app/lovecalculator`}> Love Calculator</Link></li>
                     </ul>
                 </TabPanel>
                 <TabPanel>
                     <ul className="menu-list right-boxed">
-                        <li><Link to={`${match.url}projects/css-example/ads-managers`}> Ads Manager</Link></li>
-                        <li><Link to={`${match.url}projects/css-example/card`}> Card</Link></li>
-                        <li><Link to={`${match.url}projects/css-example/login`}> Login</Link></li>
-                        <li><Link to={`${match.url}projects/css-example/modal`}> Modal</Link></li>
-                        <li><Link to={`${match.url}projects/css-example/userlist`}> Userlist</Link></li>
+                        <li><Link to={`/projects/css-example/ads-managers`}> Ads Manager</Link></li>
+                        <li><Link to={`/projects/css-example/card`}> Card</Link></li>
+                        <li><Link to={`/projects/css-example/login`}> Login</Link></li>
+                        <li><Link to={`/projects/css-example/modal`}> Modal</Link></li>
+                        <li><Link to={`/projects/css-example/userlist`}> Userlist</Link></li>
                     </ul>
                 </TabPanel>
                 <TabPanel>
                     <ul className="menu-list right-boxed">
                         <li>
-                            <a href="#page1">App</a>
+                            <a target="_blank" href="http://linkbookapp.herokuapp.com/#!/">LinkBook</a>
                         </li>
                         <li>
-                            <a href="#page2">Specialization</a>
+                            <a target="_blank" href="https://friends.netlify.app/#/login">Friendlist</a>
                         </li>
                         <li>
-                            <a href="#page3">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#page4">Services</a>
-                        </li>
-                        <li>
-                            <a href="#page6">Reviews</a>
-                        </li>
-                        <li>
-                            <a href="#page7">Contact</a>
+                            <a target="_blank" href="https://dreamy-hermann-9ffc9f.netlify.app/">Anjam masud</a>
                         </li>
                     </ul>
                 </TabPanel>
@@ -70,7 +61,7 @@ export default function Menu({ menuStatus }) {
                 <div className="social-list">
                     <a href="https://twitter.com/Imran__mh" target="_blank" className="icon ion-social-twitter"></a>
                     <a href="https://www.facebook.com/people/Imran-Hossain/100005169279775" target="_blank" className="icon ion-social-facebook"></a>
-                    <a href="#" target="_blank" className="icon ion-social-googleplus"></a>
+                    {/* <a href="#" target="_blank" className="icon ion-social-googleplus"></a> */}
                     <a href="https://www.linkedin.com/in/imranmh/" target="_blank" className="icon ion-social-linkedin"></a>
                     <a href="https://github.com/ImranMH" target="_blank" className="icon ion-social-github"></a>
                 </div>

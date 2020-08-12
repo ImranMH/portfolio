@@ -3,7 +3,7 @@ import { bg1 } from '../../../assets/images'
 const homeSection = {
     imageBg: '',
     sectionTitle: 'Introduce',
-    businessName: 'Jonny Design Studio',
+    businessName: 'Imran Web development solution',
     author: ' I am Imran.'
 }
 export default function Page1({ activeClassName, img }) {

@@ -3,15 +3,15 @@ import { pPhoto, dots } from '../../../assets/images'
 const serviceSection = {
     sectionTitle: 'service',
     photo: pPhoto,
-    experience: 4,
+    experience: 3,
     title: 'My services'
 }
 const serviceList = [
-    { title: 'Development', link: '#' },
-    { title: 'WordPress', link: "#" },
-    { title: 'Design', link: '#' },
-    { title: 'Marketing' },
-    { title: 'user Authentication' }
+    { title: 'React', link: '#' },
+    { title: 'Nodejs', link: "#" },
+    { title: 'MongoDB', link: '#' },
+    { title: 'Django' },
+    { title: 'WordPress' }
 ]
 
 export default function page4({ activeClassName, img }) {

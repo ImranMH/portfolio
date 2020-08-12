@@ -3,8 +3,8 @@ import { useSpring, animated } from 'react-spring'
 const skrillSection = {
     sectionTitle: 'what I do',
     title: 'About me',
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
-    dicta sit pariatur odio unde deleniti eveniet magni cum.`
+    description: `I make web applicatoin using modern web technologies and frameworks.
+    react in front-end, Nodejs Backend and MongoDB database is my preffered technology stack`
 }
 const skrills = [
     {
@@ -15,13 +15,6 @@ const skrills = [
         valueNow: 90
     },
     {
-        title: "WordPress",
-        level: 80,
-        minValue: 0,
-        maxValue: 100,
-        valueNow: 80
-    },
-    {
         title: "Backend Development",
         level: 80,
         minValue: 0,
@@ -29,12 +22,20 @@ const skrills = [
         valueNow: 80
     },
     {
-        title: "Design",
-        level: 60,
+        title: "Database and User Authentication",
+        level: 90,
         minValue: 0,
         maxValue: 100,
         valueNow: 60
+    },
+    {
+        title: "WordPress",
+        level: 80,
+        minValue: 0,
+        maxValue: 100,
+        valueNow: 80
     }
+
 ]
 
 export default function Page2({ activeClassName, img }) {
@@ -59,9 +60,7 @@ export default function Page2({ activeClassName, img }) {
                                         <div className="row">
                                             <div className="col-md-5 col-lg-5">
                                                 <p className="subtitle-top text-dark">{skrillSection.title}</p>
-                                                <h2 className="title-uppercase">My mission is to<br />
-                                                    <span className="text-primary">design &amp; develop </span>
-                                                        the best Websites around</h2>
+                                                <h2 className="title-uppercase">My dream is to bring<span className="text-primary"> my ideas </span> <br /> into the web</h2>
                                                 {skrillSection.description}
                                             </div>
                                             <div className="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">

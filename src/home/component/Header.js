@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {
     Link
 } from "react-router-dom";
-
+import { brand } from '../../assets/images'
 export default function Header({ menuStatus }) {
 
     return (
@@ -17,10 +17,10 @@ export default function Header({ menuStatus }) {
                 <span className="icon-bar"></span>
             </button>
             <Link to="/" className="brand" >
-                <img className="brand-img" alt="" src="images/brand.png" />
+                <img className="brand-img" alt="brand" src={brand} />
                 <div className="brand-info">
-                    <div className="brand-name">Jonny</div>
-                    <div className="brand-text">creative template</div>
+                    <div className="brand-name">Imran</div>
+                    <div className="brand-text">Web Solution</div>
                 </div>
             </Link>
             <div className="social-list hidden-xs">

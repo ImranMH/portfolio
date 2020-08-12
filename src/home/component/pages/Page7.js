@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 const testimonialData = {
     sectionTitle: 'Testimonial',
-    title: "creative & dedicated is things that Jonny studio brings for your house",
+    title: "Creativity & dedication is the key that imran brings for your web application",
     backgroundImage: bg4
 }
 const testmonials = [

@@ -6,38 +6,33 @@ const resumeSection = {
   Education: [
     {
       rTitle: 'Education',
-      rType: 'SPECIALIZATION COURSE',
-      rStudy: 'University of studies, Poland',
-      rDate: 'Jan 2004 - Dec 2006',
-      rText: `Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit. 
-      assumenda recusandae! `,
+      rType: 'Masters Degree in Accounting',
+      rStudy: 'National University of Bangladesh',
+      rDate: ' Mar 20110 - Jan 2012',
+      rText: `IsDB-BISEW IT Scholarship Programme`,
     },
     {
       rTitle: 'Education',
       rType: 'SPECIALIZATION COURSE',
-      rStudy: 'University of studies, Poland',
-      rDate: 'Jan 2004 - Dec 2006',
-      rText: `Lorem ipsum dolor sit amet,
-      consectetur. assumenda sint recusandae! `,
-    }
+      rStudy: 'IsDB-BISEW -12',
+      rDate: 'Apr 2012 - Nov 2013',
+      rText: `IsDB-BISEW IT Scholarship Programme`,
+    },
   ],
   Experience: [
     {
       rTitle: 'Experience',
-      rType: 'SPECIALIZATION COURSE',
-      rStudy: 'University of studies, Poland',
-      rDate: 'Jan 2004 - Dec 2006',
-      rText: `Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit. Minus sint recusandae! `,
+      rType: 'Web Developer',
+      rStudy: 'learnerslab.org',
+      rDate: 'Jan 2020 - Currently',
+      rText: `Learnslab is a online learning platfrom i working as a web developer  `,
     },
     {
       rTitle: 'Experience',
-      rType: 'SPECIALIZATION COURSE',
-      rStudy: 'University of studies, Poland',
+      rType: 'web hosting company',
+      rStudy: 'twilighthost',
       rDate: 'Jan 2004 - Dec 2006',
-      rText: `Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit.  animi as`
+      rText: `reseller web hosting company`
     }
   ]
 }

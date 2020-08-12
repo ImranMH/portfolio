@@ -18,10 +18,10 @@ const projectSection = {
 
 }
 const projects = [
-    { id: 1, title: 'UCAM Minimalist Apartment', category: 'front-end Design', link: '#' },
-    { id: 2, title: 'Scadinavan Living Room', category: 'Wordpress', link: '#' },
-    { id: 3, title: 'Office For Fashion Brand Store', category: 'front-end Design', link: '#' },
-    { id: 4, title: 'Rennovate Toilet', category: 'Nodejs', link: '#' }
+    { id: 1, title: 'Linkbook App', category: 'Mean stack', link: 'http://linkbookapp.herokuapp.com/#!/' },
+    { id: 2, title: 'learnerslab', category: ' Learning platfrom', link: 'http://www.learnerslab.org/' },
+    { id: 3, title: 'friend list', category: 'Vue Firebase app', link: 'https://friends.netlify.app/#/login' },
+    { id: 4, title: 'twilighthost', category: 'WordPress', link: 'https://twilighthost.com/hosting/' }
 ]
 export default function ({ activeClassName, img }) {
     const [currentId, setId] = useState(3)
